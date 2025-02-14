@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    body{
+        background-color: rgb(147, 223, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+       
+    }
+    .container{
+        background-color: rgb(96, 150, 249);
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        width: 90%;
+        max-width: 400px;
+        margin: 20px;
+    }
+    h2{
+        font-size: 40px; 
+        margin-bottom: 20px;  
+    }
+   
+    input,textarea{
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin:10px 0;
+        font-size:15px;
+        width: 100%;
+        outline: none;
+    }
+    textarea {
+        resize: none;
+    }
+
+    .btn{
+        padding: 10px;
+        width: 15vh;
+        background-color: rgb(66, 66, 249);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: blueviolet;
+    }
+
+    
+</style>
+<body>
+
+    <div class="container">
+        
+            <h2>CONTACT ME</h2>
+        <div class="FormContainer">
+            <form action="form" class="contactForm">
+                <div>
+                    <input type="Name" class="contact" placeholder="Name">
+                </div>
+                <div>
+                    <input type="Number" class="contact" placeholder="Number">
+                </div>
+                <div>
+                    <textarea name="message" class="contact" placeholder="Your Message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+            <button class="btn">SEND</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
