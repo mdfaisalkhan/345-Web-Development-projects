@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    scroll-behavior:smooth;
+    
+}
+
+header{
+    top:0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px 50px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: rgb(255, 254, 254);
+
+    
+}
+.logo{
+    cursor: default;
+}
+.logo span{
+    font-weight: 200;
+}
+.navigation {
+    margin-left: -100px;
+    
+}
+.navigation a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 400;
+    transition: .3s;
+    color: black;
+    
+}
+.navigation a:hover {    
+    color:rgb(116, 116, 116);
+}
+
+.home{
+    
+    display: flex;
+    
+    
+}
+.home::before{
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: url('ResumeBG.jpg');
+    background-size:cover;
+    background-position:center ;
+}
+.profile{
+    
+    padding: 10px 50px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 180px 30px;
+    text-align: center;
+    height:60vh;
+    filter: drop-shadow(0px 6px 8px rgba(128, 128, 128, 0.514))
+}
+.profile img{
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 80px;   
+    filter: drop-shadow(0px 6px 5px rgba(128, 128, 128, 0.514))
+}
+.profile .Profile-name{
+position: relative;
+bottom: 75px;
+}
+.profile .name{
+    font-size: 1.2rem;
+    margin-bottom: 9px;
+    font-weight: 500;
+}
+.profile .course{
+    font-size: 10px;
+    font-weight: 400;
+    color: #555;
+    background-color: #cac9c9;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icon{
+    margin-bottom: 10px;
+}
+.social-icon a i{ 
+    color:rgb(70, 70, 197);
+    margin: 5px; 
+    transition: .3s;
+}
+.social-icon a i:hover{
+    color: #c4c4c4;
+   background-color: transparent;
+} 
+
+.details{
+    font-size: 12px;
+    line-height: 30px;
+    text-align: left;
+}
+.details ul{
+    list-style: none;
+    color: #555;
+    margin-bottom: 15px;
+}
+.details ul i{
+    margin-right: 10px;
+    background-color: transparent;
+    
+}
+.details .btn{
+    text-decoration: none;
+    background-color:  rgb(31, 31, 255);
+    padding: 10px 34px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    font-size: 10px;
+    transition: .3s;
+    /* top: 50px; */
+    
+    filter: drop-shadow(0px 7px 5px rgba(0, 0, 114, 0.268))   
+}
+.details .btn span{
+    margin-right: 5px;
+}
+
+.details a:hover ,i:hover{
+    background-color: rgb(15, 15, 156);
+}
+/* right 
+====================== */
+.right-section{
+    /* border: 2px solid red; */
+    width: 140vh;
+    position: relative;
+    margin: 20vh 0px 0px 370px;
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    filter: drop-shadow(0px 10px 10px rgba(128, 128, 128, 0.514));
+    
+}
+.aboutme{
+    text-align: justify;
+    line-height: 25px;
+    
+}
+.headings{
+    margin: 20px 0px 10px 0px;
+    color: rgb(11, 0, 162)
+    
+}
+.right-section .skills{
+
+    font-size: 15px;
+    line-height:30px;
+    margin-left: 30px;
+}
+
+.container-box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    margin: 13px 20px;
+    /* height: 8em; */
+    width: 24em;
+    padding: 15px 15px;
+    background-color:rgb(244, 244, 244);
+    border-radius: 10px; 
+    box-shadow:2px 7px 14px rgba(0, 0, 0, 0.244);
+     
+}
+.project-name{
+    font-size: 15px;
+    color: rgba(0, 0, 92, 0.696);
+    margin-bottom: 3px;
+}
+.lan-used{
+    font-size: 12px;
+    color: #a4a4a4;
+    margin-bottom: 3px;
+}
+.project-des{
+    color: #555;
+    font-size: 12px;
+    text-align: justify;
+}
+
+footer{
+    font-size: 12px;
+    color: #555;
+    background-color: rgb(243, 243, 243);
+    padding: 5px 10px 15px 10px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+#contact{
+    font-size: 23px;
+    text-align: center;
+}
+.contact-para{
+    margin-bottom: 10px;
+    margin-left:20px;
+}
+.con-details{
+    line-height: 25px;
+    margin-left:40px;
+}
+.copyright{
+    font-family:Arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+    padding: 5px;
+    color: aliceblue;
+}
