@@ -4,4 +4,10 @@ For VsCode view <a href="https://github1s.com/mdfaisalkhan/345-Web-Development-p
 1. HELLO WORLD First basic page
 2. Simple Contact form
 3. Tribute page 
-4. 
+4. 04_Personal Portfolio Basic
+5. Resume Page (Basic)
+6. Survay Form (HTML, CSS)
+7. Login Page (Static)
+8. Registration Form (Static)
+9. 404 Page not found (Animated)
+
