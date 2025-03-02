@@ -12,3 +12,9 @@ For VsCode view <a href="https://github1s.com/mdfaisalkhan/345-Web-Development-p
 9. 404 Page not found (Animated)
 10. FAQ page (HTML,CSS, JS)
 11. Pricing Table (HTML, CSS)
+12. Responsive Navbar
+13. --
+14. Animated Button
+15. --
+16. --
+17. --
