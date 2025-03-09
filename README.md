@@ -15,6 +15,14 @@ For VsCode view <a href="https://github1s.com/mdfaisalkhan/345-Web-Development-p
 12. Responsive Navbar
 13. Weather App UI
 14. Animated Button
-15. --
-16. --
-17. --
+15. Image gallery
+16. Profile Card
+17. Slidebar Nav
+18. --
+19. --
+20. --
+21. --
+22. --
+23. --
+24. --
+25. --
