@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #ededed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container h1 {
+    top: 50px;
+    font-size: 2vw;
+    position: absolute;
+    color: #008efa;
+    text-decoration: underline;
+    text-decoration-color: #008efa; 
+    text-underline-offset: 9px; 
+}
+.box-container {
+display: flex;
+justify-content: center;
+    
+}
+.box{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding:min(2em, 8%);
+    width: 20%;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+    cursor: pointer;
+}
+
+.box img {
+    
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    margin-bottom: 10px;
+}
+h2{
+    
+    font-size: 1.1vw;
+    
+}
+.box .rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.box .rating li{
+    margin: 3px;
+    font-size: 1.2vw;
+}
+.para{
+    font-size: 0.9vw;
+}
+/* For tablets and large phones */
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+       
+    }
+    .container h1 {
+        font-size: 4vw;
+        position: relative;
+        top: 10px;
+        text-align: center;
+
+    }
+
+    .box-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    .para {
+        font-size: 2vw;
+    }
+
+    .box .rating li {
+        font-size: 2.5vw;
+    }
+}
+
+/* For small phones */
+@media screen and (max-width: 480px) {
+    .box {
+        width: 80%;
+        padding: 1em;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    .para {
+        font-size: 2.5vw;
+    }
+
+    .box .rating li {
+        font-size: 3vw;
+    }
+
+    .box img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .container h1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+}
