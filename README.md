@@ -18,11 +18,12 @@ For VsCode view <a href="https://github1s.com/mdfaisalkhan/345-Web-Development-p
 15.  <a href ="https://startling-axolotl-6b4aae.netlify.app/">Image gallery</a> <br> 
 16. <a href ="https://capable-truffle-08b0dd.netlify.app/">Profile Card</a> <br>  
 17. <a href ="https://strong-caramel-47193d.netlify.app/">Slidebar Nav</a> <br>  
-18. --
-19. --
-20. --
-21. --
-22. --
-23. --
-24. --
-25. --
+17. <a href="https://lustrous-phoenix-2999bd.netlify.app/">Flip Card</a> <br>
+18. <a href="https://dainty-piroshki-f5c771.netlify.app/">Modal popup</a><br>
+19. <a href="https://papaya-narwhal-6ac063.netlify.app/">Newsletter signup</a><br>
+20. <a href="https://ubiquitous-belekoy-a3d539.netlify.app/">Tooltip Effect</a><br>
+21. <a href="https://vermillion-quokka-717e14.netlify.app/">Testimonial</a><br>  
+22. <a href="https://superlative-beijinho-99f2eb.netlify.app/">Countdown Timer</a> <br> 
+23. <a href=""></a>  
+24. <a href=""></a>  
+
