@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Slideshow</title>
+    <link rel="stylesheet" href="interactive.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Interactive Slideshow</h1>
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="Image 1.jpg"  alt="">
+                <img id="slide-2" src="Image 2.jpg"  alt="">
+                <img id="slide-3" src="Image 3.jpg"  alt="">
+                <img id="slide-3" src="Image 4.jpg"  alt="">
+            </div>
+            <div class="slider-nav">
+                <a href="slide-1"></a>
+                <a href="slide-2"></a>
+                <a href="slide-3"></a>
+                <a href="slide-4"></a>
+            </div>
+        </div>
+        <p class="para">The goal of life is living in agreement with nature.</p>
+    </section>
+    <script>
+        
+        document.querySelectorAll('.slider-nav a').forEach((dot, index) => {
+            dot.addEventListener('click', (e) => {
+                e.preventDefault();
+                const slider = document.querySelector('.slider');
+                slider.scrollTo({
+                    left: slider.clientWidth * index,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
