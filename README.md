@@ -25,5 +25,6 @@ For VsCode view <a href="https://github1s.com/mdfaisalkhan/345-Web-Development-p
 21. <a href="https://vermillion-quokka-717e14.netlify.app/">Testimonial</a><br>  
 22. <a href="https://superlative-beijinho-99f2eb.netlify.app/">Countdown Timer</a> <br> 
 23. <a href="https://ornate-puppy-884233.netlify.app/">Interactive Slideshow</a> <br>
-24. <a href="https://incredible-tarsier-eb348a.netlify.app/">Image Lightbox</a>  
+24. <a href="https://incredible-tarsier-eb348a.netlify.app/">Image Lightbox</a>
+25. <a href="https://gleaming-dasik-d9fd2e.netlify.app/">Calculator</a>
 
