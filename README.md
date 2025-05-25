@@ -27,4 +27,4 @@ For VsCode view <a href="https://github1s.com/mdfaisalkhan/345-Web-Development-p
 23. <a href="https://ornate-puppy-884233.netlify.app/">Interactive Slideshow</a> <br>
 24. <a href="https://incredible-tarsier-eb348a.netlify.app/">Image Lightbox</a> <br>
 25. <a href="https://mdfkcalculator.netlify.app/">Calculator</a>   <br>
-26. <a href="https://dulcet-kulfi-2e0b00.netlify.app/">Music Player</a> <br>
+26. <a href="https://musicplayermfk.netlify.app/">Music Player</a> <br>
