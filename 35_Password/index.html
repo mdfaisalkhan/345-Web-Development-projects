@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pass.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Password strength cheacker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Password strength checker</h1>
+        <div class="password-container">
+            <input type="password" id="password" placeholder="Enter your password">
+            <span class="toggle-password" onclick="togglePasswordVisibility()">
+                <i class="fa-solid fa-eye"></i>
+              </span>
+        </div>
+        <div class="strength-meter">
+            <div class="strength-meter-fill" id="strength-meter-fill"></div>
+        </div>
+        <div class="strength-text" id="strength-text">Password Strength</div>
+
+        <div class="requirements">
+            <div class="requirement" id="length">
+                <span class="x-icon"><i class="fas fa-times icon"></i>
+                </span>
+                <span>At least 8 characters</span>
+        </div>
+        <div class="requirement" id="uppercase">
+            <span class="x icon"><i class="fas fa-times icon"></i></span>
+                <span>At least 1 uppercase letter</span> 
+        </div>
+        <div class="requirement" id="lowercase">
+            <span class="x icon"><i class="fas fa-times icon"></i></span>
+            <span>At least 1 lowercase letter</span> 
+        </div>
+        <div class="requirement" id="number">
+            <span class="x icon"><i class="fas fa-times icon"></i></span>
+            <span>At least 1 number</span> 
+        </div>
+        <div class="requirement" id="special">
+            <span class="x icon"><i class="fas fa-times icon"></i></span>
+            <span>At least 1 special character</span> 
+        </div>
+    </div>
+    </div>
+    <script src="pass.js"></script>
+</body>
+</html>
