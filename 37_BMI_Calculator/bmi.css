@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #2d2d2d; 
+}
+
+.container {
+    border-radius: 15px;
+    padding: 30px;
+    width: 400px; 
+    background: #1b1b1b;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;    
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+label{
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(126, 27, 218);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(158, 55, 255);
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+span{
+    color:  red;
+
+}
+.comment{
+    margin-top: 20px;
+}
+
+.bmi{
+    font-size: 25px;
+    margin-top: 10px;
+}
+h5{
+    font-weight: 200;
+    margin-top: 10px;
+    line-height: 25px;
+    color:  rgb(87, 87, 87);
+}
+@media screen and (max-width: 480px) {
+
+    .container{
+        width: 350px;
+    }
+    
+
+}
